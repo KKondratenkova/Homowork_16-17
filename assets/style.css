@@ -1,0 +1,81 @@
+
+body{
+    background-color: rgba(7, 143, 141, 0.949);
+
+}
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.userCardContainer{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgba(247, 147, 164, 0.531);
+    background-color: white;
+    text-align: center;
+}
+
+.colorCard{
+    width: 100%;
+    height: 40%;
+    background-color: orangered;
+}
+
+.userInfo{
+
+}
+
+.userPhoto{
+    background-image: url('https://image.shutterstock.com/image-vector/user-avatar-icon-button-profile-260nw-1517550290.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+        width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    position: relative;
+top: -100px;
+    
+
+}
+
+.infoContainer{
+
+}
+
+.userName{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+
+}
+
+.userJob{
+    color: rgba(128, 128, 128, 0.9);
+    position: relative;
+    top: -95px;
+    font-size: 18px;
+
+}
+
+.buttonFollow{
+    border: 2px solid rgba(128, 128, 128, 0.5) ;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: -60px;
+
+}
+
+
+
+.followers{
+    color: rgba(128, 128, 128, 0.6);
+font-size: 16px;
+position: relative;
+top: -50px;
+
+}
